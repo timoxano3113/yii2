@@ -14,4 +14,6 @@ foreach ($names as $name) {
     echo $name . '<br>';
 }
 
+echo $sum;
+
 ?>

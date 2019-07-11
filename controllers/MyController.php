@@ -12,15 +12,24 @@ class MyController extends AppController {
             $id = 'missed';
         }
 
+        $i = 12;
+        $o = 24;
+
+        $sum = $i + $o;
+
         //return $this->render('index', ['hello' => $hi, 'names' => $names]);
         return $this->render(
             'index',
             compact (
                 'hi',
                 'names',
-                'id'
+                'id',
+                'i',
+                'o',
+                'sum'
             )
         );
+
     }
 
 }
